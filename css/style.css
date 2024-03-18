@@ -1,0 +1,71 @@
+ /* padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+   overflow-y: scroll; permite que auqellos elemnetos que desordan
+    puedan visualizarce en la bara de desplasamiento*/
+
+
+
+ .contenedor {
+     padding: 20px;
+     margin: auto;
+     box-sizing: border-box;
+     width: 50%;
+     height: auto;
+     background-color: rgb(241, 21, 13);
+ }
+ .linea{
+    width: 90%;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+}
+
+ footer {
+     width: 90%;
+     height: 100;
+     background-color: rgba(239, 255, 15, 0.904);
+ }
+ .linea2{
+    width: 90%;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+}
+ header {
+     width: 90%;
+     height: 100;
+     background-color: rgba(241, 69, 17, 0.904);
+ }
+
+ .descripcion {
+     width: 90%;
+     height: 270px;
+     background-color: rgb(250, 5, 5);
+     display: flex;
+     overflow: hidden;
+ }
+ 
+ .river{
+    flex: 0 0 50%;
+ }
+.banner {
+     width: 90%;
+     height: 400px;
+     background-color: rgb(16, 13, 202);
+ }
+ .productos {
+     width:  90%;
+     height: 400px;
+     background-color: rgb(250, 5, 5);
+     
+ }
+
+
+ 
+
+ /* img{object-fit: cover;}
+
+ .staff {
+     width:  90%;
+     height: 400px;
+     background-color: rgb(167, 159, 48);
+ } */
