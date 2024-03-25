@@ -39,6 +39,12 @@
     height: 3px;
     background-color: rgb(255, 255, 255);
 }
+.linea3{
+    width: 90%;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+ }
+
  header {
      width: 90%;
      height: 100;
@@ -64,23 +70,26 @@
      background-color: rgb(16, 13, 202);
 
  }
+ #articulos{
+    height: 300px;
+    width: 100px;
+    background-color: red;
+    display: flex;
+ }
  .productos {
-     width:  90%;
-     height: 400px;
-     background-color: rgb(250, 5, 5);
-     
- }
- .productos2{
-    width:  100%;
-    height: 500px;
-    background-color: rgb(255, 6, 6);
- }
- .linea3{
-    width: 90%;
-    height: 3px;
-    background-color: rgb(255, 255, 255);
- }
+  
+    height: 300px;
+    width: 100%;
+    background-color: red;
 
+    & .img.productos{
+        height: 50%;
+        background-color: burlywood;
+    }
+    
+ }
+ 
+ 
 
  
 
