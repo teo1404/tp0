@@ -29,6 +29,11 @@
      height: 100;
      background-color: rgba(239, 255, 15, 0.904);
  }
+ 
+ .imagen-fondo{
+    width: 100;
+    object-fit: cover;      
+ }
  .linea2{
     width: 90%;
     height: 3px;
@@ -57,6 +62,7 @@
      width: 90%;
      height: 400px;
      background-color: rgb(16, 13, 202);
+
  }
  .productos {
      width:  90%;
