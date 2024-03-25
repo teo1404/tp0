@@ -13,10 +13,14 @@
      width: 50%;
      height: auto;
      background-color: rgb(241, 21, 13);
+     .river2{
+        float: right;
+    }
+
  }
  .linea{
     width: 90%;
-    height: 3px;
+    height: 2px;
     background-color: rgb(255, 255, 255);
 }
 
@@ -38,7 +42,7 @@
 
  .descripcion {
      width: 90%;
-     height: 270px;
+     height: 470px;
      background-color: rgb(250, 5, 5);
      display: flex;
      overflow: hidden;
@@ -47,6 +51,8 @@
  .river{
     flex: 0 0 50%;
  }
+
+ 
 .banner {
      width: 90%;
      height: 400px;
