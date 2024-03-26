@@ -82,7 +82,7 @@
     width: 100%;
     background-color: red;
 
-    & .img.productos{
+    & .img-productos{
         height: 50%;
         background-color: burlywood;
     }
