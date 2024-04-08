@@ -29,11 +29,22 @@
      height: 100;
      background-color: rgba(239, 255, 15, 0.904);
  }
+ 
+ .imagen-fondo{
+    width: 100;
+    object-fit: cover;      
+ }
  .linea2{
     width: 90%;
     height: 3px;
     background-color: rgb(255, 255, 255);
 }
+.linea3{
+    width: 90%;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+ }
+
  header {
      width: 90%;
      height: 100;
@@ -57,14 +68,40 @@
      width: 90%;
      height: 400px;
      background-color: rgb(16, 13, 202);
+
+ }
+ #articulos{
+    height: 300px;
+    width: 100px;
+    background-color: red;
+    display: flex;
  }
  .productos {
-     width:  90%;
-     height: 400px;
-     background-color: rgb(250, 5, 5);
-     
- }
+  
+    height: 300px;
+    width: 100%;
+    background-color: red;
 
+    & .img-productos{
+        height: 50%;
+        background-color: burlywood;
+    }
+    & .img-productos1{
+        height: 50%;
+        background-color: burlywood;
+    }
+    & .img-productos2{
+        height: 50%;
+        background-color: burlywood;
+    }
+    
+ }
+ .btn{
+    background-color: black;
+    
+ }
+ 
+ 
 
  
 
