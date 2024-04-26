@@ -1,0 +1,117 @@
+ /* padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+   overflow-y: scroll; permite que auqellos elemnetos que desordan
+    puedan visualizarce en la bara de desplasamiento*/
+
+
+
+ .contenedor {
+     padding: 20px;
+     margin: auto;
+     box-sizing: border-box;
+     width: 100%;
+     height: 100%;
+     background-color: rgb(241, 21, 13);
+     .river2{
+        float: right;
+    }
+
+ }
+ .linea{
+    width: 90%;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+}
+
+ footer {
+     width: 90%;
+     height: 100;
+     background-color: rgba(239, 255, 15, 0.904);
+ }
+ 
+ .imagen-fondo{
+    width: 100;
+    object-fit: cover;      
+ }
+ .linea2{
+    width: 90%;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+}
+.linea3{
+    width: 90%;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+ }
+
+ header {
+     width: 90%;
+     height: 100;
+     background-color: red
+ }
+ .descripcion {
+     width: 90%;
+     height: 470px;
+     background-color: rgb(250, 5, 5);
+     display: flex;
+     overflow: hidden;
+ }
+ 
+ .river{
+    flex: 0 0 50%;
+ }
+
+ 
+.banner {
+     width: 90%;
+     height: 400px;
+     background-color: rgb(16, 13, 202);
+
+ }
+
+ .articulos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .articulo {
+    text-align: center;
+  }
+  
+  .articulo img {
+    width: 250px;
+    height: 400px;
+  }
+  
+  .staff {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .staf {
+    text-align: center;
+  }
+
+  .staf img {
+    width: 250px;
+    height: 300px;
+  }   
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ /* img{object-fit: cover;}
+
+ .staff {
+     width:  90%;
+     height: 400px;
+     background-color: rgb(167, 159, 48);
+ } */
